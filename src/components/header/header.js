@@ -52,9 +52,9 @@ export default function Header({ className }) {
 const styles = {
   headerBtn: {
     backgroundColor: 'rgba(0,0,0,0)',
-    fontSize: '16px',
+    fontSize: '20px',
     fontWeight: 'bold',
-    letterSpacing: '-0.16px',
+    letterSpacing: '-0.14px',
     borderRadius: '5px',
     border: '2px solid',
     borderColor: 'primary',
@@ -76,7 +76,7 @@ const styles = {
     top: 0,
     left: 0,
     backgroundColor: 'transparent',
-    transition: 'all 0.4s ease',
+    transition: 'all 0.6s ease',
 
     '&.sticky': {
       backgroundColor: 'background',
@@ -99,9 +99,9 @@ const styles = {
       display: 'none',
     },
     navLink: {
-      fontSize: '16px',
+      fontSize: '20px',
       color: '#02073E',
-      fontWeight: '400',
+      fontWeight: '450',
       cursor: 'pointer',
       lineHeight: '1.2',
       mr: '48px',
